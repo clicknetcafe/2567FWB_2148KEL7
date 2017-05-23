@@ -40,7 +40,7 @@
 							<ul class="nav navbar-nav">
 								<li><a href="/beritamember"><i class="fa fa-user"></i> Berita</a></li>
 								<li><a href="promomember"><i class="fa fa-star"></i> Promo</a></li>
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Produk</a></li>
+								<li><a href="/produkmember"><i class="fa fa-crosshairs"></i> Produk</a></li>
 								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i>Belanja</a></li>
 								<li><a href="{{url('logout')}}"><i class="fa fa-lock"></i> Logout</a></li>
 							</ul>

@@ -91,6 +91,13 @@ Route::post('produk/simpan','produkcontroller@simpan');
 Route::get('produk/edit/{produk}','produkcontroller@edit');
 Route::post('produk/edit/{produk}','produkcontroller@update');
 
+Route::get('/produkmember', 'produkmembercontroller@awal');
+Route::get('produkmember/hapus/{produkmember}','produkmembercontroller@hapus');
+Route::get('produkmember/tambah', 'produkmembercontroller@tambah');
+Route::post('produkmember/simpan','produkmembercontroller@simpan');
+Route::get('produkmember/edit/{produkmember}','produkmembercontroller@edit');
+Route::post('produkmember/edit/{produkmember}','produkmembercontroller@update');
+
 Route::get('/', function () {
     return view('master');
 

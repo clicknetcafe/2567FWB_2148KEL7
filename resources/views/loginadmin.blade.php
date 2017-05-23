@@ -6,7 +6,7 @@
 <!-- BEGIN HEAD -->
 <head>
      <meta charset="UTF-8" />
-    <title>Halaman Admin</title>
+    <title>Masuk Admin || Member</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -129,9 +129,9 @@
     </div>
     <div class="text-center">
         <ul class="list-inline">
-            <li><a class="text-muted" href="#login" data-toggle="tab">Login</a></li>
-            <li><a class="text-muted" href="#forgot" data-toggle="tab">login member</a></li>
-            <li><a class="text-muted" href="#signup" data-toggle="tab">Signup</a></li>
+            <li><a class="text-muted" href="#login" data-toggle="tab">Login Admin</a></li>
+            <li><a class="text-muted" href="#forgot" data-toggle="tab">login Member</a></li>
+            <li><a class="text-muted" href="#signup" data-toggle="tab">Daftar</a></li>
         </ul>
     </div>
 
